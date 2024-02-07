@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-100: #101020;
+  --dark-75: #1a1a2b;
+  --dark-50: #212133;
+  --dark-25: #45455c;
+  --gray: #75758a;
+  --white: #ffffff;
+  --orange: #ff4400;
+  --hover-orange: #ff5a00;
+}
+
+body {
+  background-color: var(--dark-100);
+  color: var(--white);
+}
